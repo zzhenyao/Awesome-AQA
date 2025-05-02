@@ -43,7 +43,7 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 - [CVPR Oral] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment | [Paper](https://arxiv.org/pdf/2405.06887#pdfjs.action=download) | [Code](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) | | $\color{#ff7f0e}\textsf{FineDiving-HM + MTL-AQA}$ | $\color{#9467bd}\textsf{Video + Skeleton}$ |  $\color{#d62728}{\text{Contrastive Regression}}$  
 - [CVPR] Narrative Action Evaluation with Prompt-Guided Multimodal Interaction | [Paper](https://arxiv.org/abs/2404.14471) | [Code](https://github.com/shiyi-zh0408/NAE_CVPR2024) |   $\color{#ff7f0e}\textsf{FineGym +  MTL-AQA}$ | $\color{#9467bd}\textsf{Video + Text}$  
 - [CVPRW] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment | [Paper](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Okamoto_Hierarchical_NeuroSymbolic_Approach_for_Comprehensive_and_Explainable_Action_Quality_Assessment_CVPRW_2024_paper.pdf) | [Code](https://github.com/laurenok24/NSAQA) 
-- [TIP] | (PAMFN) Multimodal Action Quality Assessment | [Paper](https://arxiv.org/abs/2402.09444) | [Code](https://github.com/qinghuannn/PAMFN) |  $\color{#ff7f0e}\textsf{RG + Fis-V}$ |$\color{#9467bd}\textsf{Video + Flow + Audio}$  
+- [TIP] | (PAMFN) Multimodal Action Quality Assessment | [Paper](https://arxiv.org/abs/2402.09444) | [Code](https://github.com/qinghuannn/PAMFN) |  $\color{#ff7f0e}\textsf{RG + Fis-V}$ | $\color{#9467bd}\textsf{Video + Flow + Audio}$  
 - [CVPR] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark |[Paper](https://arxiv.org/abs/2412.11149) | [Project](https://zhoukanglei.github.io/AQA-Survey/)| [Code](https://github.com/ZhouKanglei/AQA-Benchmark) | $\color{#2ca02c}\textsf{Survey+Benchmark}$
 - [ESWA] Vision-based human action quality assessment: A systematic review| [Paper](https://www.sciencedirect.com/science/article/pii/S0957417424025090?via%3Dihub) | $\color{#2ca02c}\textsf{Survey}$
 
@@ -51,7 +51,7 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ---
 
-## Benchmarks (SOTA)
+## Benchmarks
 
 **Note:** Models with an asterisk (\*) denote reproduced results, while others refer to those reported in the original papers.
 
