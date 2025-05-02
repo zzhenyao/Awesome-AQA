@@ -18,7 +18,7 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ### 2025
 
-- [TPAMI] | (Uni-FineParser) Human-centric Fine-grained Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/document/10946879) | $\color{#ff7f0e}\textsf{FineDiving-HM+AQA-7-HM+MTL-AQA-HM}$ | $\color{#9467bd}\textsf{Video}$  | $\color{#d62728}{\text{Contrastive Regression}}$  
+- [TPAMI] | (Uni-FineParser) Human-centric Fine-grained Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/document/10946879) | $\color{#ff7f0e}\textsf{FineDiving-HM + AQA-7-HM + MTL-AQA-HM}$ | $\color{#9467bd}\textsf{Video}$  | $\color{#d62728}{\text{Contrastive Regression}}$  
 
 - [ArXiv] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. | [Paper](https://arxiv.org/abs/2502.02817) | [Project](https://arxiv.org/html/2502.02817v1) | [Code](https://github.com/HaoYin116/Survey_of_AQA/) | $\color{#2ca02c}\textsf{Survey}$
 - [CVPR] BASKET 🏀 :A Large-Scale Video Dataset for Fine-Grained Skill Estimation | [Paper](https://arxiv.org/abs/2503.20781) | [Project](https://sites.google.com/cs.unc.edu/basket) | [Code](https://github.com/yulupan00/BASKET/tree/main) | $\color{#9467bd}\textsf{Video}$ | $\color{#ff7f0e}\textsf{BASKET}$  
@@ -193,42 +193,42 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ###  MTL-AQA-HM
 
-|   Year   |     Model      | Input Data | ρ (Spearman) |   R1   | MSE  |
-| :------: | :------------: | :--------: | :----------: | :----: | :--: |
-|   2014   |   Pose+DCT*    |    RGB     |    0.2682    |   -    |  -   |
-|   2017   |    C3D-SVR*    |    RGB     |    0.7716    |   -    |  -   |
-|   2017   |   C3D-LSTM*    |    RGB     |    0.8489    |   -    |  -   |
-|   2019   |  C3D-AVG-STL*  |    RGB     |    0.8960    |   -    |  -   |
-|   2019   |  C3D-AVG-MTL*  |    RGB     |    0.9044    |   -    |  -   |
-|   2020   |     USDL*      |    RGB     |    0.9231    | 0.4680 |  -   |
-|   2020   |     MUSDL*     |    RGB     |    0.9273    | 0.4510 |  -   |
-|   2021   |    TSA-Net*    |    RGB     |    0.9422    |   -    |  -   |
-|   2021   |     CoRe*      |    RGB     |    0.9512    | 0.2600 |  -   |
-|   2022   |      TPT*      |    RGB     |    0.9607    | 0.2378 |  -   |
-|   2024   |      NAE*      |    RGB     |    0.9430    | 0.3400 |  -   |
-|   2024   |     RICA2*     |    RGB     |    0.9594    | 0.2580 |  -   |
-| CVPR-24  |   FineParser   |    RGB     |    0.9585    | 0.2411 |  -   |
-| TPAMI-25 | Uni-FineParser |    RGB     |    0.9622    | 0.2299 |  -   |
+|   Year   |     Model      | Input Data | ρ (Spearman) | R-ℓ2 (×100) |
+| :------: | :------------: | :--------: | :----------: | :---------: |
+|   2014   |   Pose+DCT*    |    RGB     |    0.2682    |      -      |
+|   2017   |    C3D-SVR*    |    RGB     |    0.7716    |      -      |
+|   2017   |   C3D-LSTM*    |    RGB     |    0.8489    |      -      |
+|   2019   |  C3D-AVG-STL*  |    RGB     |    0.8960    |      -      |
+|   2019   |  C3D-AVG-MTL*  |    RGB     |    0.9044    |      -      |
+|   2020   |     USDL*      |    RGB     |    0.9231    |   0.4680    |
+|   2020   |     MUSDL*     |    RGB     |    0.9273    |   0.4510    |
+|   2021   |    TSA-Net*    |    RGB     |    0.9422    |      -      |
+|   2021   |     CoRe*      |    RGB     |    0.9512    |   0.2600    |
+|   2022   |      TPT*      |    RGB     |    0.9607    |   0.2378    |
+|   2024   |      NAE*      |    RGB     |    0.9430    |   0.3400    |
+|   2024   |     RICA2*     |    RGB     |    0.9594    |   0.2580    |
+| CVPR-24  |   FineParser   |    RGB     |    0.9585    |   0.2411    |
+| TPAMI-25 | Uni-FineParser |    RGB     |    0.9622    |   0.2299    |
 
 ###  FineDiving-HM
 
-|   Year   |     Model      | Input Data | ρ (Spearman) | R-ℓ2 (×100) | MSE  |
-| :------: | :------------: | :--------: | :----------: | :---------: | :--: |
-|   2017   |   C3D-LSTM*    |    RGB     |    0.6969    |   1.0767    |  -   |
-|   2019   |    C3D-AVG*    |    RGB     |    0.8371    |   0.6251    |  -   |
-|   2019   |    MSCADC*     |    RGB     |    0.7688    |   0.9327    |  -   |
-|   2020   |    I3D+MLP*    |    RGB     |    0.8776    |   0.4967    |  -   |
-|   2020   |     USDL*      |    RGB     |    0.8830    |   0.4800    |  -   |
-|   2020   |     MUSDL*     |    RGB     |    0.9241    |   0.3474    |  -   |
-| ICCV-21  |     CoRe*      |    RGB     |    0.9308    |   0.3148    |  -   |
-|   2022   |      TSA*      |    RGB     |    0.9324    |   0.3022    |  -   |
-|   2022   |      TPT*      |    RGB     |    0.9475    |   0.2413    |  -   |
-|   2024   |     STSA*      |    RGB     |    0.9397    |   0.2707    |  -   |
-| ECCV-24  |   TSA-MVLA*    |    RGB     |    0.9419    |   0.2840    |  -   |
-|   2024   |     RICA2*     |    RGB     |    0.9402    |   0.2838    |  -   |
-| CVPR-24  |   FineParser   |    RGB     |    0.9435    |   0.2602    |  -   |
-| CVPRW-25 |   FineCausal   |    RGB     |    0.9447    |   0.2338    |      |
-| TPAMI-25 | Uni-FineParser |    RGB     |    0.9501    |   0.2294    |  -   |
+|   Year   |     Model      | Input Data | ρ (Spearman) | R-ℓ2 (×100) |
+| :------: | :------------: | :--------: | :----------: | :---------: |
+|   2017   |   C3D-LSTM*    |    RGB     |    0.6969    |   1.0767    |
+|   2019   |    C3D-AVG*    |    RGB     |    0.8371    |   0.6251    |
+|   2019   |    MSCADC*     |    RGB     |    0.7688    |   0.9327    |
+|   2020   |    I3D+MLP*    |    RGB     |    0.8776    |   0.4967    |
+|   2020   |     USDL*      |    RGB     |    0.8830    |   0.4800    |
+|   2020   |     MUSDL*     |    RGB     |    0.9241    |   0.3474    |
+| ICCV-21  |     CoRe*      |    RGB     |    0.9308    |   0.3148    |
+|   2022   |      TSA*      |    RGB     |    0.9324    |   0.3022    |
+|   2022   |      TPT*      |    RGB     |    0.9475    |   0.2413    |
+|   2024   |     STSA*      |    RGB     |    0.9397    |   0.2707    |
+| ECCV-24  |   TSA-MVLA*    |    RGB     |    0.9419    |   0.2840    |
+|   2024   |     RICA2*     |    RGB     |    0.9402    |   0.2838    |
+| CVPR-24  |   FineParser   |    RGB     |    0.9435    |   0.2602    |
+| CVPRW-25 |   FineCausal   |    RGB     |    0.9447    |   0.2338    |
+| TPAMI-25 | Uni-FineParser |    RGB     |    0.9501    |   0.2294    |
 
 ## Datasets
 
@@ -256,12 +256,3 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 | JIGSAWS             | 2014 | Skill          |    3    | 103     | --                                                         | Video, Kinematic             | Step-level (surgeme) + global rating | [link](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) |
 | MIT Olympics        | 2014 | Sports         |    2    | 309     | Dive: 150, Figure Skate: 4200                              | Video                        | Overall score                        | [link](https://redirect.cs.umbc.edu/hpirsiav/quality.html)   |
 
-**Color**：
-
-$\color{#d62728}{\text{Contrastive Regression or Continual Learning}}$  
-
-$\color{#9467bd}\textsf{Video + Skeleton + Audio + Flow}$  
-
-$\color{#ff7f0e}\textsf{datasets}$  
-
-$\color{#2ca02c}\textsf{Survey or Benchmark}$
