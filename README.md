@@ -32,7 +32,7 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 - [TIP] I (SAP-Net) Self-supervised subaction parsing network for semi-supervised action quality assessment | [Paper](https://ieeexplore.ieee.org/abstract/document/10706814) | $\color{#ff7f0e}\textsf{RG + FineFS + FineDiving + MTL-AQA}$ | $\color{#9467bd}\textsf{Video}$  |  $\color{#d62728}{\text{Contrastive Regression}}$  
 - [NeurIPS] LucidAction: A Hierarchical and Multi-model Dataset for Comprehensive Action Quality Assessment | [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/aecf6978509d8b306f74c0d09508f9bc-Abstract-Datasets_and_Benchmarks_Track.html) | [Project](https://neurips.cc/virtual/2024/poster/97542) | $\color{#2ca02c}\textsf{Dataset}$
 - [TCSVT] Rhythmer: Ranking-based Skill Assessment with Rhythm-aware Transformer | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10679980)
-- [BMVC] | (ILT-AQA) Interpretable Long-term Action Quality Assessment | [Paper](https://arxiv.org/abs/2408.11687) | [Code](https://github.com/dx199771/Interpretability-AQA) |  $\color{#ff7f0e}\textsf{RG + FineFS + LOGO}$ | $\color{#9467bd}\textsf{Video}$  
+- [BMVC] | (ILT-AQA) Interpretable Long-term Action Quality Assessment | [Paper](https://arxiv.org/abs/2408.11687) | [Code](https://github.com/dx199771/Interpretability-AQA) |  $\color{#ff7f0e}\textsf{RG + Fis-V + LOGO}$ | $\color{#9467bd}\textsf{Video}$  
 - [ECCV] | (TSA-MVLA) Vision-Language Action Knowledge Learning for Semantic-Aware Action Quality Assessment | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05909.pdf) |  $\color{#ff7f0e}\textsf{FineDiving +  MTL-AQA + JIGSAWS + Fis-V}$ | $\color{#9467bd}\textsf{Video + Text}$  
 - [ECCV] RICA2: Rubric-Informed, Calibrated Assessment of Actions | [Paper](https://arxiv.org/abs/2408.02138) |  [Project](https://abrarmajeedi.github.io/rica2_aqa/) | [Code](https://github.com/abrarmajeedi/rica2_aqa) |  $\color{#ff7f0e}\textsf{FineDiving +  MTL-AQA + JIGSAWS + Fis-V}$ | $\color{#9467bd}\textsf{Video + Text}$  
 - [ECCV] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment | [Paper](https://arxiv.org/abs/2403.04398) | [Code](https://github.com/ZhouKanglei/MAGR_CAQA) | $\color{#d62728}{\text{Continual Learning}}$  
@@ -70,7 +70,6 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 | TIP-24   |    PAMFN    | RGB,Flow,Audio | 0.757 | 0.825 | 0.836 | 0.846  | 0.819 |
 | IJCAI-24 |   CoFInAl   |      RGB       | 0.809 | 0.806 | 0.804 | 0.810  | 0.807 |
 | TCSVT-24 |  VATP-Net   |   RGB, Text    | 0.800 | 0.810 | 0.780 | 0.769  | 0.800 |
-| BMVC-24  |   ILT-AQA   |      RGB       | 0.823 | 0.852 | 0.837 | 0.857  | 0.842 |
 | TCSVT-25 |    ASGTN    |      RGB       | 0.792 | 0.825 | 0.784 | 0.793  | 0.799 |
 
 
@@ -93,7 +92,6 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 | TIP-24   |     PAMFN      | RGB,Flow,Audio | 0.754 | 0.872 | 0.822 |
 | IJCAI-24 |    CoFInAl     |      RGB       | 0.716 | 0.843 | 0.788 |
 | TCSVT-24 |    VATP-Net    |      RGB       | 0.702 | 0.863 | 0.796 |
-| BMVC-24  |    ILT-AQA     |      RGB       | 0.717 | 0.858 | 0.788 |
 | TCSVT-25 |     ASGTN      |      RGB       | 0.703 | 0.845 | 0.784 |
 
 
@@ -126,16 +124,15 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ### LOGO
 
-|          |   Model    | Input Data | ρ (Spearman) |  RL2  |
-| :------: | :--------: | :--------: | :----------: | :---: |
-| CVPR-20  |    USDL    |    RGB     |    0.473     | 5.076 |
-| ICCV-21  |    CoRe    |    RGB     |    0.500     | 5.960 |
-|    -     |    TSA     |    RGB     |    0.475     | 4.778 |
-|    -     | ACTION-NET |    RGB     |    0.410     | 5.569 |
-|    -     | USDL-GOAT  |    RGB     |    0.535     | 5.022 |
-|    -     |  TSA-GOAT  |    RGB     |    0.484     | 5.409 |
-|    -     | CoRe-GOAT  |    RGB     |    0.560     | 4.763 |
-| BMVC2024 |  ILT-AQA   |    RGB     |    0.780     | 1.745 |
+|         |   Model    | Input Data | ρ (Spearman) |  RL2  |
+| :-----: | :--------: | :--------: | :----------: | :---: |
+| CVPR-20 |    USDL    |    RGB     |    0.473     | 5.076 |
+| ICCV-21 |    CoRe    |    RGB     |    0.500     | 5.960 |
+|    -    |    TSA     |    RGB     |    0.475     | 4.778 |
+|    -    | ACTION-NET |    RGB     |    0.410     | 5.569 |
+|    -    | USDL-GOAT  |    RGB     |    0.535     | 5.022 |
+|    -    |  TSA-GOAT  |    RGB     |    0.484     | 5.409 |
+|    -    | CoRe-GOAT  |    RGB     |    0.560     | 4.763 |
 
 ###  FineDiving
 
