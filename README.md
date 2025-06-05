@@ -18,7 +18,7 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ### 2025
 
-- [TPAMI] | (Uni-FineParser) Human-centric Fine-grained Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/document/10946879) | $\color{#ff7f0e}\textsf{FineDiving-HM + AQA-7-HM + MTL-AQA-HM}$ | $\color{#9467bd}\textsf{Video}$  | $\color{#d62728}{\text{Contrastive Regression}}$  
+- [TPAMI] | (Uni-FineParser) Human-centric Fine-grained Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/document/10946879) | $\color{#ff7f0e}\textsf{FineDiving-HM + AQA-7-HM + MTL-AQA-HM}$ | $\color{#9467bd}\textsf{Video}$  | $\color{#d62728}{\text{Contrastive Regression}}$  <span style="color:#ff7f0e; font-family:monospace;">FineDiving-HM + AQA-7-HM + MTL-AQA-HM</span>
 
 - [ArXiv] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. | [Paper](https://arxiv.org/abs/2502.02817) | [Project](https://arxiv.org/html/2502.02817v1) | [Code](https://github.com/HaoYin116/Survey_of_AQA/) | $\color{#2ca02c}\textsf{Survey}$
 - [CVPR] BASKET 🏀 :A Large-Scale Video Dataset for Fine-Grained Skill Estimation | [Paper](https://arxiv.org/abs/2503.20781) | [Project](https://sites.google.com/cs.unc.edu/basket) | [Code](https://github.com/yulupan00/BASKET/tree/main) | $\color{#9467bd}\textsf{Video}$ | $\color{#ff7f0e}\textsf{BASKET}$  
