@@ -18,6 +18,8 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ### 2025
 
+- [TIP] | (PHI) PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction | [Paper](https://arxiv.org/pdf/2505.19972) | [Code](https://github.com/ZhouKanglei/PHI_AQA) | $\color{#ff7f0e}\textsf{Fis-V + RG}$ | $\color{#9467bd}\textsf{Video}$  | 
+
 - [TPAMI] | (Uni-FineParser) Human-centric Fine-grained Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/document/10946879) | $\textsf{\color{#ff7f0e}FineDiving-HM + AQA-7-HM + MTL-AQA-HM}$ | $\color{#9467bd}\textsf{Video}$  | $\color{#d62728}{\text{Contrastive Regression}}$
 
 - [ArXiv] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. | [Paper](https://arxiv.org/abs/2502.02817) | [Project](https://arxiv.org/html/2502.02817v1) | [Code](https://github.com/HaoYin116/Survey_of_AQA/) | $\color{#2ca02c}\textsf{Survey}$
@@ -61,38 +63,39 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 |          |    Model    |   Input Data   | Ball  | Clubs | Hoop  | Ribbon | Avg.  |
 | -------- | :---------: | :------------: | :---: | :---: | :---: | :----: | :---: |
-|          |  C3D+SVR*   |      RGB       | 0.375 | 0.551 | 0.495 | 0.516  | 0.483 |
-|          |  MS-LSTM*   |      RGB       | 0.621 | 0.661 | 0.670 | 0.695  | 0.663 |
-|          | ACTION-NET* |      RGB       | 0.684 | 0.737 | 0.733 | 0.754  | 0.728 |
-|          |    GDLT*    |      RGB       | 0.746 | 0.802 | 0.765 | 0.741  | 0.765 |
+| TPAMI-17 |  C3D+SVR*   |      RGB       | 0.375 | 0.551 | 0.495 | 0.516  | 0.483 |
+| TCSVT-19 |  MS-LSTM*   |      RGB       | 0.621 | 0.661 | 0.670 | 0.695  | 0.663 |
+| ACM MM-20 | ACTION-NET* |      RGB       | 0.684 | 0.737 | 0.733 | 0.754  | 0.728 |
+| CVPR-22 |    GDLT*    |      RGB       | 0.746 | 0.802 | 0.765 | 0.741  | 0.765 |
 | TCSVT-23 |    HGCN*    |      RGB       | 0.711 | 0.789 | 0.728 | 0.703  | 0.735 |
-| TIP-24   |    PAMFN    |      RGB       | 0.750 | 0.788 | 0.791 | 0.824  | 0.790 |
+| TIP-24   |    PAMFN    |      RGB       | 0.636 | 0.720 | 0.769 | 0.708  | 0.711 |
 | TIP-24   |    PAMFN    | RGB,Flow,Audio | 0.757 | 0.825 | 0.836 | 0.846  | 0.819 |
 | IJCAI-24 |   CoFInAl   |      RGB       | 0.809 | 0.806 | 0.804 | 0.810  | 0.807 |
 | TCSVT-24 |  VATP-Net   |   RGB, Text    | 0.800 | 0.810 | 0.780 | 0.769  | 0.800 |
 | TCSVT-25 |    ASGTN    |      RGB       | 0.792 | 0.825 | 0.784 | 0.793  | 0.799 |
-
+| TIP-25 |    PHI    |      RGB       | 0.818 | 0.803 | 0.812 | 0.805 | 0.810 |
 
 
 ### Fis-V
 
-|          |     Model      |   Input Data   | TES   | PCS   | Avg.  |
-| -------- | :------------: | :------------: | ----- | ----- | ----- |
-|          |    C3D+SVR*    |      RGB       | 0.400 | 0.590 | 0.501 |
-|          |    MS-LSTM*    |      RGB       | 0.660 | 0.809 | 0.744 |
-|          |  ACTION-NET*   |      RGB       | 0.694 | 0.809 | 0.757 |
-|          | Skating-Mixer* |      RGB       | 0.680 | 0.820 | 0.759 |
-|          |     GDLT*      |      RGB       | 0.685 | 0.820 | 0.761 |
-|          |   LUSD-NET*    |      RGB       | 0.679 | 0.823 | 0.760 |
-|          |      SGN*      |      RGB       | 0.700 | 0.830 | 0.773 |
-| TCSVT-23 |     HGCN*      |      RGB       | 0.246 | 0.221 | 0.234 |
-| ICCV-21  |     CoRe*      |      RGB       | 0.660 | 0.820 | 0.750 |
-| ECCV-22  |      TPT*      |      RGB       | 0.570 | 0.760 | 0.677 |
-| TIP-24   |     PAMFN      |      RGB       | 0.742 | 0.867 | 0.814 |
-| TIP-24   |     PAMFN      | RGB,Flow,Audio | 0.754 | 0.872 | 0.822 |
-| IJCAI-24 |    CoFInAl     |      RGB       | 0.716 | 0.843 | 0.788 |
-| TCSVT-24 |    VATP-Net    |      RGB       | 0.702 | 0.863 | 0.796 |
-| TCSVT-25 |     ASGTN      |      RGB       | 0.703 | 0.845 | 0.784 |
+|           |     Model      |   Input Data   | TES   | PCS   | Avg.  |
+| --------- | :------------: | :------------: | ----- | ----- | ----- |
+| TPAMI-17  |    C3D+SVR*    |      RGB       | 0.400 | 0.590 | 0.501 |
+| TCSVT-19  |    MS-LSTM*    |      RGB       | 0.660 | 0.809 | 0.744 |
+| ACM MM-20 |  ACTION-NET*   |      RGB       | 0.694 | 0.809 | 0.757 |
+|           | Skating-Mixer* |      RGB       | 0.680 | 0.820 | 0.759 |
+| ICCV-21   |     CoRe*      |      RGB       | 0.660 | 0.820 | 0.750 |
+| CVPR-22   |     GDLT*      |      RGB       | 0.685 | 0.820 | 0.761 |
+| ECCV-22   |      TPT*      |      RGB       | 0.570 | 0.760 | 0.677 |
+| TCSVT-23  |     HGCN*      |      RGB       | 0.246 | 0.221 | 0.234 |
+| ACM MM-23 |    LUSD-NET    |      RGB       | 0.679 | 0.823 | 0.760 |
+| TMM-24    |      SGN*      |      RGB       | 0.700 | 0.830 | 0.773 |
+| TIP-24    |     PAMFN      |      RGB       | 0.665 | 0.823 | 0.755 |
+| TIP-24    |     PAMFN      | RGB,Flow,Audio | 0.754 | 0.872 | 0.822 |
+| IJCAI-24  |    CoFInAl     |      RGB       | 0.716 | 0.843 | 0.788 |
+| TCSVT-24  |    VATP-Net    |      RGB       | 0.702 | 0.863 | 0.796 |
+| TCSVT-25  |     ASGTN      |      RGB       | 0.703 | 0.845 | 0.784 |
+| TIP-25    |      PHI       |      RGB       | 0.726 | 0.867 | 0.804 |
 
 
 
