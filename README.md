@@ -18,10 +18,8 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ### 2025
 
-- [TIP] | (PHI) PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction | [Paper](https://arxiv.org/pdf/2505.19972) | [Code](https://github.com/ZhouKanglei/PHI_AQA) | $\color{#ff7f0e}\textsf{Fis-V + RG}$ | $\color{#9467bd}\textsf{Video}$  | 
-
+- [TIP] | (PHI) PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction | [Paper](https://arxiv.org/pdf/2505.19972) | [Code](https://github.com/ZhouKanglei/PHI_AQA) | $\color{#ff7f0e}\textsf{Fis-V + RG + LOGO }$ | $\color{#9467bd}\textsf{Video}$  | 
 - [TPAMI] | (Uni-FineParser) Human-centric Fine-grained Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/document/10946879) | $\textsf{\color{#ff7f0e}FineDiving-HM + AQA-7-HM + MTL-AQA-HM}$ | $\color{#9467bd}\textsf{Video}$  | $\color{#d62728}{\text{Contrastive Regression}}$
-
 - [ArXiv] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. | [Paper](https://arxiv.org/abs/2502.02817) | [Project](https://arxiv.org/html/2502.02817v1) | [Code](https://github.com/HaoYin116/Survey_of_AQA/) | $\color{#2ca02c}\textsf{Survey}$
 - [CVPR] BASKET 🏀 :A Large-Scale Video Dataset for Fine-Grained Skill Estimation | [Paper](https://arxiv.org/abs/2503.20781) | [Project](https://sites.google.com/cs.unc.edu/basket) | [Code](https://github.com/yulupan00/BASKET/tree/main) | $\color{#9467bd}\textsf{Video}$ | $\color{#ff7f0e}\textsf{BASKET}$  
 - [TCSVT] | (ASGTN) Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment | [Paper](https://ieeexplore.ieee.org/abstract/document/10884538) | [Code](https://github.com/jiangliu5/ASGTN_AQA) | $\color{#ff7f0e}\textsf{Fis-V + RG}$ | $\color{#9467bd}\textsf{Video}$ 
@@ -127,15 +125,15 @@ A curated list of papers, datasets, code, and SOTA benchmarks for **Action Quali
 
 ### LOGO
 
-|         |   Model    | Input Data | ρ (Spearman) |  RL2  |
-| :-----: | :--------: | :--------: | :----------: | :---: |
-| CVPR-20 |    USDL    |    RGB     |    0.473     | 5.076 |
-| ICCV-21 |    CoRe    |    RGB     |    0.500     | 5.960 |
-|    -    |    TSA     |    RGB     |    0.475     | 4.778 |
-|    -    | ACTION-NET |    RGB     |    0.410     | 5.569 |
-|    -    | USDL-GOAT  |    RGB     |    0.535     | 5.022 |
-|    -    |  TSA-GOAT  |    RGB     |    0.484     | 5.409 |
-|    -    | CoRe-GOAT  |    RGB     |    0.560     | 4.763 |
+|          |   Model   | Input Data | ρ (Spearman) |  RL2  |
+| :------: | :-------: | :--------: | :----------: | :---: |
+| CVPR-20  |   USDL    |    RGB     |    0.473     | 5.076 |
+| ICCV-21  |   CoRe    |    RGB     |    0.500     | 5.960 |
+| CVPR-22  |    TSA    |    RGB     |    0.475     | 4.778 |
+| CVPR-23  | CoRe-GOAT |    RGB     |    0.560     | 4.763 |
+| TCSVT-23 |   HGCN    |    RGB     |    0.671     | 6.564 |
+| IJCAI-24 |  CoFInAl  |    RGB     |    0.698     | 4.019 |
+|  TIP-25  |    PHI    |    RGB     |    0.835     | 2.752 |
 
 ###  FineDiving
 
